@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Exclude helper files (keep only README.md)
+*.bat
+GITHUB_PUSH_GUIDE.md
+PRESENTATION_SUMMARY.md
+INTERACTIVE_DEMO_GUIDE.md
+
+# Android
+android-demo/.gradle/
+android-demo/.idea/
+android-demo/local.properties
+android-demo/build/
+android-demo/app/build/
+*.apk
+*.aab
